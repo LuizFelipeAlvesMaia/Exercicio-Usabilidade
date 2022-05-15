@@ -1,0 +1,81 @@
+/* Estilo aplicado nos elementos da seção body */
+body {
+    /* configuração da fonte */
+    font-family: Helvetica;
+    /* alinhamento do texto centralizado */
+    text-align: center;
+    /* configurando a cor da fonte */
+    color: white;
+    /* configurando a cor do fundo */
+    background-color: #333;
+    /* Reset de margem e padding */
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos aplicados na seção nav */
+nav {
+    /*Ajusta os elementos na mesma linha*/
+    display: flex;
+    /*Coloca espaços entre itens*/
+    justify-content: space-between;
+    /*Configura preenchimento em torno do texto*/
+    padding: 20px;
+    /*Alinha os itens ao centro da tela*/
+    align-items: center;
+    /*Ajusta a borda do botão e coloca cor na borda*/
+    border-bottom: 1px solid #666;
+}
+
+/* Lista não ordenada dentro da seção nav */
+nav ul {
+    /*Alinha os itens na mesma linha*/
+    display: flex;
+    /*Define o estilo da lista não ordenada*/
+    list-style: none;
+
+}
+
+/* Itens da lista não ordenada */
+ul li {
+    /*Adciona uma margem a direita do item */
+    margin-right: 12px;
+}
+
+/* Tag <a> dentro do item da lista não ordenada */
+ul li a {
+    /*Adciona cor ao do texto da lista*/
+    color: #fff;
+    /*Define nenhuma decoração ao texto da lista*/
+    text-decoration: none;
+    /*Adciona um tempo para transição da lista*/
+    transition: 0.5s;
+}
+
+/* O hover CSS é uma pseudo-classe da linguagem de estilos */
+ul li a:hover {
+    /*Configuração de cor ao ponteiro do mouse sobre o item*/
+    color: rgb(15, 89, 150);
+}
+
+/* Estilo aplicado no elemento pela tag */
+h1 {
+    /*Tamanho da fonte do texto no paragrafo*/
+    font-size: 32px;
+}
+
+/* Estilo aplicado no elemento pela tag */
+img {
+    /*Configura uma borda com e a cor da imagem*/
+    border: 3px solid rgb(15, 194, 218);
+    /*Configura uma altura para a imagem*/
+    height: 300px;
+}
+
+/* Seção footer */
+footer {
+    /*Adciona um preenchimento no rodape*/
+    padding: 20px;
+    border-top: 1px solid #666;
+    margin-top: 20px;
+}

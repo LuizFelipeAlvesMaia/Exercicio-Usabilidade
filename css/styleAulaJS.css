@@ -1,0 +1,33 @@
+/*Estilo aplicado nos elementos da seção body*/
+body {
+    /*configuraçãod do estilo de fonte*/
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Aplicado configurções de div*/
+#div-paragrafos {
+    /*configuração da cor do fundo*/
+    background-color: reg(93, 93, 145);
+    color: aliceblue;
+}
+
+/*configuração de background do paragrafo*/
+.longo {
+    /*configuração da cor de fundo*/
+    background-color: pink;
+}
+
+/*Configuraçãod da cor da fote*/
+#p1 {
+    /*cor da fonte*/
+    color: brown;
+    /*tamanho da fonte*/
+    font-size: 30px;
+    /*tipo da fonte*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Configuração do tipo de fonte*/
+p {
+    /*estilo da fote*/
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,92 @@
+/* Geral */
+body {
+    /*Configura preenchimento no corpo da pagina*/
+    padding: 20px;
+}
+
+/* Estilo para a tag Parágrafos */
+p {
+    /*Muda a cor do texto do paragrafo*/
+    color: green;
+    /*Muda o tamanho da fonte do texto do paragrafo*/
+    font-size: 30px;
+}
+
+/* Estilo para a classe de Parágrafos numerados */
+.p-numerados {
+    /*Configuração do estilo da fonte*/
+    font-family: 'Courier New';
+    /*Configuração de cor do texto*/
+    color: blueviolet;
+    /*Configuração da cor de fundo*/
+    background-color: yellowgreen;
+}
+
+/* Estilo para o id p1 */
+#p1 {
+    /*Configura a cor de fundo do item*/
+    background-color: black;
+    /*Altera a cor do texto do item*/
+    color: red;
+}
+
+h2 {
+    /*Adciona uma borda a baixo do item e altera sua cor*/
+    border-bottom: 1px solid red;
+}
+
+/* TODOS ELEMENTOS DA PÁGINA */
+* {
+    /*Altera a fonte de todo o conteudo da pagina*/
+    font-family: Arial;
+}
+
+.decoration {
+    /*Configuração do Sublinhado do texto*/
+   text-decoration: none;
+   /*Tempo do sublinhado*/
+   transition: 0.5s;
+}
+
+/*Configuração de mundança de cor após clicado*/
+a:visited {
+    /*Mudança de cor após clicado*/
+    color: rgb(241, 13, 13);
+}
+
+/*Configuração de mudança de cor ao passar o mouse por cima*/
+a:hover {
+    
+    background-color: yellow;
+    
+}
+
+/* Fontes */
+.serifada {
+    /*Altera a fonte do texto na classe */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sem-serifa {
+   /*Altera a fonte do texto na classe */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monoespacada {
+    /*Altera a fonte do texto na classe */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.caixa {
+    /*Configura o comprimento do conteudo*/
+    width: 150px;
+    /*Configura a altura do conteudo*/
+    height: 100px;
+    /*Configura a borda e altera sua cor*/
+    border: 10px solid blue;
+    /*Adciona preenchimento ao redor do conteudo*/
+    padding: 100px ;
+    /*Adciona preenchimento dentro da caixa*/
+    margin: 100px;
+    
+}
+
